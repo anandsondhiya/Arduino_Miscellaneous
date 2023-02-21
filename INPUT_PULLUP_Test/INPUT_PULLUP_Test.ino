@@ -1,4 +1,4 @@
-#define button1 13
+int button1 = 13 ;
 
 void setup() {
   Serial.begin(9600);
@@ -7,7 +7,7 @@ void setup() {
 
 void loop() {
   int ButtonState = digitalRead(button1);
-
+  
   Serial.println(ButtonState);
 
 }
